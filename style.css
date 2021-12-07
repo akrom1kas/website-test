@@ -20,7 +20,7 @@
     color:#FFFFFF;  
     font-size: 60px; 
     text-align: left;
-    margin-top: 183px;
+    margin-top: 130px;
     margin-left: 318px;  
 }
 nav{
@@ -54,14 +54,13 @@ li a {
 #section1 li a:hover {
     background-color: #9E9C93;
 }
-
+.section1-p p{
+    font-size: 24px;
+    
+}
 p{
     color: #FFFFFF;
     margin-left: 128px;
-    margin-top: 511;
-    width: 544;
-    height: 56px;
-    font-size: 24;
     text-align: center;
 }
 button{
@@ -153,7 +152,14 @@ button{
       margin-left: 95px;
       position: absolute;
       margin-top: -125px;
-  }    
+  }  
+  .centerphoto h1{
+      margin-top: -160px;
+      margin-left: 10px;
+      text-align: center;
+      color:rgb(157, 106, 83);
+      font-family: 'Dancing Script', cursive;
+  }  
 /* Trecias puslapis */
 
 #section3{
