@@ -1,0 +1,348 @@
+
+/* // Pirmas puslapis */  
+#footer-title1{
+    text-align: left;
+    font-size: 27px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF ;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block; 
+}
+#section1{
+    background-image: url("picture/section1.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;   
+}
+.section1-h1{
+    color:#FFFFFF;  
+    font-size: 60px; 
+    text-align: left;
+    margin-top: 183px;
+    margin-left: 318px;  
+}
+nav{
+    height: 45px;
+    width: 100%;
+    background-color: #56534c;
+    text-align: center;
+    opacity: 80%;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+
+#section1 nav ul{
+    position: fixed;
+    background-color: #56534c;
+    width: 100%;
+    margin-top: 0;
+}
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFFFFF ;
+    margin-left: 50px;
+    transition-duration: 0.4s;
+}
+
+#section1 li a:hover {
+    background-color: #9E9C93;
+}
+
+p{
+    color: #FFFFFF;
+    margin-left: 128px;
+    margin-top: 511;
+    width: 544;
+    height: 56px;
+    font-size: 24;
+    text-align: center;
+}
+button{
+    margin-left: 640px;
+    color: #FFFFFF;
+    background-color: #9E9C93;
+}
+
+/* // Antras puslapis */
+
+#section2{
+    background-image: url("picture/download\ \(6\).png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover; 
+    display: flex;
+}
+.section2-right{
+    height: 50vh;
+    margin: 80px 20px 20px 20px;
+}
+.section2-img{
+    padding: 80px;
+    
+  
+}
+.section2-left{
+    width: 100vh;
+    height: 70vh;
+    margin: 80px 20px 20px 20px;
+    opacity: 70%;
+}
+.section2-h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+ }
+.section2-h5{
+    text-align: center;
+ }
+.section2-p{
+    color: black;
+    margin-left: 20px;
+ }
+.section2-p2{
+    color: black;
+    margin-left: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+ }
+.cheff{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -100px;
+ }
+.section2-left img{
+    border-radius: 50%;
+    margin-left: 30px;
+    
+ }
+.section2-h4name{
+    margin-left: 180px;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    border-top: 1px solid black;
+    padding-top: 2px;
+    padding: 15px;
+    
+    
+ }
+.section2-h4name2{
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    border-top: 1px solid black;
+    padding-top: 2px;
+    padding: 15px;
+ }
+.photosfirst,
+.photossecon {
+    display: flex;
+ }
+.photosfirst > img,
+.photossecond > img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+.centerphoto{
+      margin-left: 95px;
+      position: absolute;
+      margin-top: -125px;
+  }    
+/* Trecias puslapis */
+
+#section3{
+    background-image: url("picture/download\ \(7\).png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover; 
+}
+.left{
+    width: 70vh;
+    height: 70vh;
+    background-image: url("picture/download\ \(15\).png");
+    margin: 80px -30px;
+    margin-left: 200px; 
+}
+.right{
+    width: 70vh;
+    height: 70vh;
+    background-color: white; 
+    margin: 80px 20px 20px 20px; 
+}
+.section3rightphoto img{
+    border-radius: 50%;
+    margin-left: 40px;
+    object-fit: cover;
+    margin-top: 60px;
+}
+.section3rightphoto img:hover{
+    filter: brightness(115%);
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.right-h1{
+    color: rgb(157, 106, 83);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.right-h5{
+    color: #9E9C93;
+    text-align: center;
+}
+.right-p{
+    color: black;
+    margin-left: 10px;
+}
+
+/* Ketvirtas puslapis */
+
+#section4{
+    background-image: url("picture/download\ \(8\).png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;   
+}
+.section4content-left{
+    width: 100vh;
+    height: 70vh;
+    margin: 150px ;
+    background-image: url("picture/download\ \(33\).png");
+    margin-top: 50px;   
+}
+.section4-h1-left{
+    color: rgb(157, 106, 83);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.section4-p-left{
+    color:black;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.section4-button-left{
+    width: 250px;
+    height: 70px;
+    background: transparent;
+    border-color: rgb(91, 66, 61);
+    color: rgb(91, 66, 61);
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 0,4s;
+}
+.section4-button-left:hover{
+    background-color: rgb(157, 106, 83);
+}
+.section4content-right{
+    width: 100vh;
+    height: 70vh;
+    margin: 80px 0 20px 300px;
+    margin-top: 10px;
+}
+.section4-h1{
+    color: white;
+    
+}
+.section4-h2{
+    color: rgb(157, 106, 83);
+    margin-top: -20px;
+}
+.section4-h6{
+    font-size: 18px;
+    margin-top: -10px; 
+}
+
+/* Penktas puslapis */
+
+#section5{
+    background-image: url("picture/download.png");
+    width: 100%;
+    height: 150vh;
+    background-size: cover; 
+}
+.section5-h1{
+    font-family: 'Dancing Script', cursive;
+}
+.section5content{
+    text-align: center;
+    
+}
+.section5left h4{
+    margin-left: 70px;
+    color: rgb(157, 109, 94);
+    position: absolute;
+}
+.section5left p{
+    color: rgb(91, 66, 61);
+    margin: 0;
+    margin-top: 60px;
+}
+.section5left img{
+    border-radius: 50%;
+    margin-left: 75px;
+}
+.section5right img{
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.section5content1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Sestas puslapis */
+
+#footer{
+    background-image: url("picture/download\ \(14\).png");
+    width: 100%;
+    height: 141px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-title{
+    font-family: 'Dancing Script', cursive;
+}
+#footer li{
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 8px;
+    padding: 0px;
+    font-size: 13px;
+    color:#9E9C93;
+}
+#footer ul{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+    border-top: 1px solid black;
+    padding-top: 2px;
+    padding: 15px;
+    align-items: center;
+    padding: 10px;
+ 
+}
+#footer li a{
+    color:#9E9C93; 
+}
+
+#footer-title li{
+    font-size: 24px;
+}
+#footer li a:hover {
+    background-color: #dad6c9;
+}
+
