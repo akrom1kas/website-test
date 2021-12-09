@@ -1,4 +1,9 @@
-
+html{
+      scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
 /* // Pirmas puslapis */  
 #footer-title1{
     font-size: 27px;
@@ -7,13 +12,15 @@
     color: #FFFFFF ;
     font-family: 'Dancing Script', cursive;
     display: inline-block;
+    float: left;
+    margin-top: 0px;
 }
 #section1{
     background-image: url("picture/section1.png");
     background-size: cover;
     height: 100vh;
-    position: relative;
-    width: 100%;   
+    background-repeat: no-repeat;
+    
 }
 .section1-h1{
     color:#FFFFFF;  
@@ -34,8 +41,9 @@ nav li{
     list-style: none;
     letter-spacing: 5px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
     margin-left:0px;
+    margin-top: 10px;
 }
 
 #section1 nav ul{
@@ -57,7 +65,7 @@ li a {
 }
 .section1-p p{
     font-size: 24px;
-    
+    font-weight: 100;
 }
 p{
     color: #FFFFFF;
@@ -68,9 +76,44 @@ button{
     margin-left: 640px;
     color: #FFFFFF;
     background-color: #9E9C93;
-    opacity: 90%;
+    
 }
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
 
+  }
+.fa:hover {
+    opacity: 0.8;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+  }
+.fa-youtube {
+    background: rgb(185, 7, 7);
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+  }
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+  }
 /* // Antras puslapis */
 
 #section2{
@@ -79,6 +122,7 @@ button{
     height: 100vh;
     background-size: cover; 
     display: flex;
+    background-repeat: no-repeat;
 }
 .section2-right{
     height: 50vh;
@@ -96,6 +140,7 @@ button{
 .section2-h1{
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    margin-left: 30px;
  }
 .section2-h5{
     text-align: center;
@@ -139,17 +184,24 @@ button{
 .photosfirst,
 .photossecon {
     display: flex;
+  
  }
-.photosfirst > img,
-.photossecond > img {
+.photosfirst > img
+{
     width: 200px;
     height: 200px;
     margin-bottom: -40px;
-    margin: 10px
+    margin: 10px;
+    
   }
+.photossecond > img{
+    width: 200px;
+    height: 200px;
+    margin: 9px;
+}
 .centerphoto{
       margin-left: 95px;
-      position:absolute;
+      position: absolute;
       margin-top: -125px;
   }  
   
@@ -159,6 +211,8 @@ button{
       text-align: center;
       color:rgb(157, 106, 83);
       font-family: 'Dancing Script', cursive;
+      background-size: contain;
+      overflow: visible;
       
   }  
 /* Trecias puslapis */
@@ -169,6 +223,7 @@ button{
     height: 100vh;
     display: flex;
     background-size: cover; 
+    background-repeat: no-repeat;
 }
 .left{
     width: 70vh;
@@ -219,7 +274,8 @@ button{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-size: cover;   
+    background-size: cover;  
+    background-repeat: no-repeat; 
 }
 .section4content-left{
     width: 100vh;
@@ -236,16 +292,16 @@ button{
 .section4-p-left{
     color:black;
     font-size: 16px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 60px;
 }
 .section4-button-left{
-    width: 250px;
-    height: 70px;
+    width: 150px;
+    height: 50px;
     background: transparent;
     border-color: rgb(91, 66, 61);
     color: rgb(91, 66, 61);
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 100px;
     transition: 0,4s;
 }
@@ -278,6 +334,7 @@ button{
     width: 100%;
     height: 150vh;
     background-size: cover; 
+    background-repeat: no-repeat;
 }
 .section5-h1{
     font-family: 'Dancing Script', cursive;
@@ -287,19 +344,26 @@ button{
     
 }
 .section5left h4{
-    margin-left: 70px;
+    margin-left: 40px;
     color: rgb(157, 109, 94);
-    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-weight: 100
+    
 }
 .section5left p{
     color: rgb(91, 66, 61);
     margin: 0;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .section5left img{
     border-radius: 50%;
-    margin-left: 75px;
+    margin-left: 100px; 
+    margin-top: 10px;
 }
+
 .section5right img{
     margin-left: 100px;
     margin-top: 100px;
@@ -319,6 +383,7 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-repeat: no-repeat;
 }
 #footer-title{
     font-family: 'Dancing Script', cursive;
@@ -326,7 +391,7 @@ button{
 #footer li{
     display: inline-block;
     list-style: none;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     padding: 0px;
     font-size: 13px;
     color:#9E9C93;
