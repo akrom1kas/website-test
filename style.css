@@ -32,21 +32,23 @@ nav{
     text-align: center;
     opacity: 80%;  
 }
+span{
+    margin-left: 60px;
+}
 nav li{
     display: inline-block;
     list-style: none;
     letter-spacing: 5px;
-    padding: 10px;
+    padding: 5px;
     font-size: 16px;
-    margin-left:0px;
-    margin-top: 10px; 
+    margin-left: 0;
+    margin-top: 5px; 
 }
 #section1 nav ul{
     position: fixed;
     background-color: #56534c;
     width: 100%;
-    margin-top: 0; 
-    
+    margin-top: 0;   
 }
 li a {
     list-style-type: none;
