@@ -71,13 +71,11 @@ p{
 button{
     margin-left: 640px;
     color: #FFFFFF;
-    background-color: #9E9C93;
-    
+    background-color: #9E9C93;  
 }
 .fa {
     padding: 10px;
     font-size: 10px;
-    width: 10px;
     text-decoration: none;
   }
 .fa:hover {
