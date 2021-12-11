@@ -32,8 +32,11 @@ nav{
     text-align: center;
     opacity: 80%;  
 }
+nav ul{
+    position: fixed;
+}
 span{
-    margin-left: 60px;
+    margin-left: 20px;
 }
 nav li{
     display: inline-block;
@@ -45,7 +48,6 @@ nav li{
     margin-top: 5px; 
 }
 #section1 nav ul{
-    position: fixed;
     background-color: #56534c;
     width: 100%;
     margin-top: 0;   
@@ -192,14 +194,21 @@ button{
     height: 200px;
     margin: 9px;
 }
+span img{
+    margin-left: 75px;
+    margin-top: -100px;
+} */
+.photossecond img{
+    margin-top: -140px
+}
 .centerphoto{
       margin-left: 95px;
       position: absolute;
       margin-top: -125px;
       z-index: 1;
-  }  
+  } 
   
-  .centerphoto h1{
+.centerphoto h1{
       margin-top: -160px;
       margin-left: 10px;
       text-align: center;
@@ -208,7 +217,8 @@ button{
       background-size: contain;
       overflow: visible;
       
-  }  
+ }  
+
 /* Trecias puslapis */
 
 #section3{
