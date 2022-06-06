@@ -1,5 +1,5 @@
 html {
-      scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body {
     margin:0;
@@ -283,7 +283,7 @@ button:hover {
     background: transparent;
     border-color: rgb(91, 66, 61);
     color: rgb(91, 66, 61);
-    margin-left: 5px;
+    margin-left: 100px;
     margin-top: 100px;
     transition: 0,4s;
 }
